@@ -210,7 +210,7 @@
         // move it to the right
         if (cloud.position.x <= (-1 * cloud.contentSize.width)) {
             cloud.position = ccp(cloud.position.x +
-                                 4 * cloud.contentSize.width, cloud.position.y);
+                                 10 * cloud.contentSize.width, cloud.position.y);
         }
     }
     
